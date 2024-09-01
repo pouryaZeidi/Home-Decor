@@ -1,10 +1,12 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 const HeroSection = () => {
   return (
     <div>
+      <Navbar/>
       <div className='relative w-full h-[100vh]'>
-        <img src="/wall.jpg" alt="Background" className="w-full h-[100vh] object-cover" />
+        <img src="/wall.jpg" alt="Background" className="w-full h-[94vh] object-cover" />
         
         <div className='absolute top-1/2 left-1/2 transform -translate-x-1/2 w-[75%] text-nowrap flex justify-center -translate-y-1/2 text-white font-extrabold text-[42px] sm:text-[48px] md:text-[60px] lg:text-[75px]  tracking-wide drop-shadow-[2px_2px_0px_rgba(0,0,0,1)]'>
           HOME DECOR

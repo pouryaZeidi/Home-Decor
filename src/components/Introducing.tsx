@@ -4,7 +4,7 @@ const Introducing = () => {
   return (
     <div className='w-full h-[100vh] '>
 
-    <div className='mt-5 w-full relative flex flex-col md:flex-row justify-between '>
+    <div className=' w-full relative flex flex-col md:flex-row justify-between '>
 
       <img 
         src="/itroduc1.png" 
